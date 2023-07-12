@@ -1,0 +1,72 @@
+.leftWrap {
+  // font-size: 12px;
+  box-sizing: border-box;
+  background: #fff;
+  border-radius: 6px 0 0 6px;
+  .title {
+    display: flex;
+    justify-content: center;
+    .tag {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 30px;
+      text-align: center;
+      span{ 
+        background: #538BFF;
+        padding: 2px;
+        border-radius: 4px;
+        min-width: 70px;
+        color: #FFFFFF;}
+    }
+  }
+  .content {
+    .list {
+      &:nth-child(odd) {
+        .item:nth-child(odd){
+          background: #FAFBFC;
+        }
+      }
+      &:nth-child(even) {
+        .item:nth-child(even){
+          background: #FAFBFC;
+        }
+      }
+      .item{
+        display: flex;
+        justify-content: center;
+        // padding-left: 12px;
+        align-items: center;
+        color: #323232;
+       
+        text-align: center;
+        // padding: 2px 5px;
+        height: 30px;
+        .topTitle {
+          width: 70px;
+          padding: 2px;
+          background: #FE981E; 
+          color: #FFFFFF;
+          border-radius: 4px;
+        }
+      }
+    }
+  }
+}
+
+.totalWrap {
+  margin: 5px 0px 5px 0px;
+  box-sizing: border-box;
+  background: #FFFFFF;
+  border-radius: 6px 0px 0px 6px;
+  padding: 5px;
+  border: 1px solid #FFFFFF;
+  display: flex;
+  justify-content: center;
+  .title { 
+    // font-size: 12px;
+    color: #323232;
+    height: 18px;
+    text-align: left;
+    letter-spacing: 0;}
+}

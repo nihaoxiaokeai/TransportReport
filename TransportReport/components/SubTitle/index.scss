@@ -1,0 +1,80 @@
+.subWrap {
+  border-bottom: 1px solid #f4f4f4;
+  font-size: 14px;
+  padding: 9px 10px 0 10px;
+  background-color: #ffffff;
+  color: #90959A;
+  .moreTitle {
+    max-width: 620px;
+    .topTitle {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 5px 0;
+      background-color: #ffffff;
+    }
+
+    .item {
+      background-color: #ffffff;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      .moreText {
+        padding: 12px 0;
+        width: 70px;
+        margin: 0 5px;
+        text-align: center;
+      }
+    }
+  }
+  .title {
+    .tag {  
+      display: flex;
+      align-items: center;
+      word-break: keep-all;
+      overflow-x: scroll;
+      margin-right: 35px;
+    }
+    .text{
+      text-align: center;
+      padding-bottom: 10px;
+    }
+    .icon{
+      margin-top: -32px;
+      position: absolute;
+      height: 30px;
+      right: 0;
+    // top: 50px;
+      background-color: #ffffff;
+      img {
+        margin: 0 10px;
+      }
+    }
+  }
+
+  .active{
+    color: #ffffff;
+    background-image: linear-gradient(90deg, #509BFF 2%, #509BFF 9%, #567DFF 89%);
+    height: 2px;
+    border: 1px solid #509BFF;
+    border-radius: 100px;
+    margin: 0 2px;
+    text-align: center;
+  }
+  .noActive{
+    color: #ffffff;
+    height: 2px;
+    border: 1px solid;
+    border-radius: 100px;
+  }
+}
+
+.moadbg{
+  background: rgba(0,0,0,0.20);
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+}
